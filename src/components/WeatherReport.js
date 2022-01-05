@@ -21,6 +21,7 @@ const WeatherReport = ({ result }) => {
         <div>Wind: {data.current.wind_speed} MPH</div>
       </div>
       {  DailyForecast {...data} /> }
+      }
     </div>
   );
 };
