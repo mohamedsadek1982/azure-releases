@@ -20,7 +20,7 @@ const WeatherReport = ({ result }) => {
         <div>Currently: {data.current.weather[0].description}</div>
         <div>Wind: {data.current.wind_speed} MPH</div>
       </div>
-      {/* <DailyForecast {...data} /> */}
+      {  DailyForecast {...data} /> }
     </div>
   );
 };
