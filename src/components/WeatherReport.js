@@ -7,7 +7,7 @@ import "./WeatherReport.css";
 import { AppConfigurationClient } from "@azure/app-configuration";
 
 const client = new AppConfigurationClient(
-  "Endpoint=https://weatherappconfig.azconfig.io;Id=+XiI-l4-s0:FtWFuHd83stOMp0BZVoH;Secret=gwLXbi/wtjUg5nyTo3GXY0p9Z4/lFPNvJPFuZHhW7g4="
+  "Endpoint=https://weatherappconfig.azconfig.io;Id=56O4-l4-s0:WJ6cvBtckGPiJD3HY3/v;Secret=2kORQxTv8McCWMY7j9EkOvrblg5t8fBBdWVNo5M9XGg="
 );
 
 const WeatherReport = ({ result }) => {
